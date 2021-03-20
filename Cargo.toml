@@ -3,6 +3,10 @@ name = "py-input-dark"
 version = "0.1.0"
 authors = ["DarkCh4osss <67869598+DarkCh4osss@users.noreply.github.com>"]
 edition = "2018"
+homepage = "https://fabiogrimaldi-dev.it/"
+documentation = "https://fabiogrimaldi-dev.it/"
+repository = "https://fabiogrimaldi-dev.it/"
+readme = "https://fabiogrimaldi-dev.it/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

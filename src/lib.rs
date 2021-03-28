@@ -15,7 +15,7 @@ pub fn input(user_message: &str) -> io::Result<String> {
 pub fn parse_to_int(user_string: &str) -> i32 {
     
     let buffer: i32 = match user_string.parse::<i32>() {
-        Ok(buffer) => buffer;
+        Ok(buffer) => buffer,
         Err(_e) => -1,
     };
 

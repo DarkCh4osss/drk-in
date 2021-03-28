@@ -1,13 +1,13 @@
 [package]
 name = "drk-in"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["DarkCh4osss <67869598+DarkCh4osss@users.noreply.github.com>"]
 edition = "2018"
-homepage = "https://fabiogrimaldi-dev.it/"
-documentation = "https://fabiogrimaldi-dev.it/"
+homepage = ""
+documentation = ""
 repository = "https://fabiogrimaldi-dev.it/"
 readme = "README.md"
-description = "Python Input Like"
+description = "A utility crate"
 license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

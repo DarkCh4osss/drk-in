@@ -11,3 +11,10 @@ pub fn input(user_message: &str) -> io::Result<String> {
 
     Ok(buffer.trim().to_owned())
 }
+
+pub fn parse_to_int(user_string: &str) -> io::Result<i32> {
+    
+    let buffer: i32 = user_string.trim().parse().expect("err");
+
+    Ok(buffer.to_owned())
+}

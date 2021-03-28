@@ -12,9 +12,12 @@ pub fn input(user_message: &str) -> io::Result<String> {
     Ok(buffer.trim().to_owned())
 }
 
-pub fn parse_to_int(user_string: &str) -> io::Result<i32> {
+pub fn parse_to_int(user_string: &str) -> i32 {
     
-    let buffer: i32 = user_string.trim().parse().expect("err");
+    let buffer: i32 = match user_string.parse::<i32>() {
+        Ok(buffer) => buffer;
+        Err(_e) => -1,
+    };
 
-    Ok(buffer.to_owned())
+    buffer
 }

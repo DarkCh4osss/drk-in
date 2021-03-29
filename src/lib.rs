@@ -2,7 +2,7 @@ use std::io;
 use std::io::Write;
 use std::str::FromStr;
 
-pub fn input<T: FromStr>(user_message: &str) -> io::Result<String> {
+pub fn input<T: FromStr>(user_message: &str) -> Option<T> {
     
     print!("{}", user_message);
     io::stdout().flush().ok()?;
@@ -10,7 +10,7 @@ pub fn input<T: FromStr>(user_message: &str) -> io::Result<String> {
     let mut buffer: String = String::new();
     io::stdin().read_line(&mut buffer).ok()?;
 
-    Ok(buffer.trim().parse().ok()?)
+    Some(buffer.trim().parse().ok()?)
 }
 
 macro_rules! tinput {

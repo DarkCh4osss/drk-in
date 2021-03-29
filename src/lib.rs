@@ -13,6 +13,13 @@ pub fn input<T: FromStr>(user_message: &str) -> Option<T> {
     Some(buffer.trim().parse().ok()?)
 }
 
+#[macro_export]
+macro_rules! tinput {
+    ($f:ty $(,$t:ty)*) => {
+        (input::<$f>("") $(, input::<$t>(""))*)
+    }
+}
+
 pub fn parse_to_int(user_string: &str) -> i32 {
     
     let buffer: i32 = match user_string.parse::<i32>() {

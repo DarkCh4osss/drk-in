@@ -4,7 +4,7 @@
 ### Cargo.toml
 ```
 [dependencies]
-drk-in = "1.1.2" 
+drk-in = "1.1.3" 
 ```
 ### main.rs
 ```

@@ -4,7 +4,7 @@
 ### Cargo.toml
 ```
 [dependencies]
-drk-in = "1.1.0"
+drk-in = "1.1.1"
 ```
 ### main.rs
 ```
@@ -12,7 +12,7 @@ use drk-in::*;
 ```
 
 # Official documentation 💼
-> <a href="https://docs.rs/drk-in/1.0.2/drk_in/">Docs</a> 💖
+> <a href="https://docs.rs/drk-in/">Docs</a> 💖
 
 # Why did I make it ✨
 > <ul>

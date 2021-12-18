@@ -4,11 +4,11 @@
 ### Cargo.toml
 ```
 [dependencies]
-drk-in = "1.1.3" 
+drk_in = "1.1.4" 
 ```
 ### main.rs
 ```
-use drk-in::*;
+use drk_in::*;
 ```
 
 # Official documentation 💼
